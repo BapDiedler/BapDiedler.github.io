@@ -1,4 +1,4 @@
-# 🌐 Page de Présentation – Mon Portfolio
+# Page de Présentation – Mon Portfolio
 
 Une simple page web personnelle réalisée en **HTML, CSS et JavaScript**, servant de vitrine pour présenter mon profil, mes projets et mes coordonnées.
 
