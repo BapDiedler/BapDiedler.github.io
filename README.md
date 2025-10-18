@@ -33,4 +33,4 @@ git clone https://github.com/monpseudo/mon-portfolio.git
 cd mon-portfolio
 
 # Lancer localement
-open index.html
+open home.html
