@@ -19,19 +19,23 @@
     }
     *{box-sizing:border-box}
     html,body{height:100%}
-    body{
-      margin:0;
-      font-family:var(--ff-sans);
+    body {
+      margin: 0;
+      font-family: var(--ff-sans);
       background: radial-gradient(1000px 400px at 10% 10%, rgba(124,92,255,0.08), transparent),
                   linear-gradient(180deg, #071028 0%, var(--bg) 100%);
-      color:#e6eef8;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      padding:40px 20px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
+      color: #e6eef8;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      /* ❌ retire align-items:center */
+      /* ✅ ajoute ceci : */
+      min-height: 100vh;
+      overflow-y: auto;
     }
+
 
     .container{
       width:100%;
